@@ -110,7 +110,10 @@ class MainActivity : AppCompatActivity() {
                     populateDataList()
                 }
                 .setNegativeButton(R.string.negative, null)
-                .show()
+                .show().also { dialog ->
+                    dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(view.context.getColor(R.color.white))
+                    dialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(view.context.getColor(R.color.white))
+                }
         }
         populateDataList()
 

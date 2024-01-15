@@ -5,10 +5,15 @@
         <item name="colorPrimaryVariant">@color/darkGreen</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="CustomButton" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@color/darkGreen</item>
         <item name="android:textColor">@color/white</item>
     </style>
+    <style name="AlertDialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <style name="Theme.Handleliste" parent="Base.Theme.Handleliste" />
 </resources>
