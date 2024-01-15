@@ -9,5 +9,5 @@
     <string name="positive">Ja</string>
     <string name="negative">Nei</string>
     <string name="exists_message">Den varen er allerede i listen</string>
-    <string name="left_out">Noen duplikater var utelatt fra kopieringen</string>
+    <string name="left_out">Noen duplikater var utelatt</string>
 </resources>
