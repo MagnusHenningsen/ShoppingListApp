@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
         if (someAreChecked) {
             adapter.removeCheckedItems()
         } else {
-            AlertDialog.Builder(view.context)
+            AlertDialog.Builder(view.context,  R.style.CustomAlertDialogStyle)
                 .setTitle(R.string.delete_title)
                 .setMessage(R.string.delete_message)
                 .setPositiveButton(R.string.positive) { dialog, which ->

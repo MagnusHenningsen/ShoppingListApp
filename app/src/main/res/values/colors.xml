@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ripple_color">#80FFFFFF</color>
     <color name="darkGreen">#1F372F</color>
+    <color name="alertDialogBackground">#2e2d2d</color>
+    <color name="staticBackground">#141218</color>
 </resources>

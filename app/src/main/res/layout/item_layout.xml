@@ -3,17 +3,18 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="16dp"
-    android:background="?attr/selectableItemBackground">
+    >>
 
     <TextView
         android:id="@+id/text_view_item"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="18sp" />
+        android:textSize="18sp" /> <!-- Use theme attribute for text color -->
 
     <CheckBox
         android:id="@+id/check_box"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:buttonTint="?attr/colorSecondary" /> <!-- Use theme attribute for checkbox tint -->
 </LinearLayout>
