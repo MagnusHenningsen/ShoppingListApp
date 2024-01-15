@@ -4,7 +4,7 @@
     <string name="add_item">Add</string>
     <string name="copy">Copy</string>
     <string name="remove_button">Clear</string>
-    <string name="delete_title">CLear list?</string>
+    <string name="delete_title">Clear list?</string>
     <string name="delete_message">Are you sure you want to clear the entire list?</string>
     <string name="positive">Yes</string>
     <string name="negative">No</string>
