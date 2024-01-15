@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shopping list</string>
+    <string name="input_placeholder">Example item</string>
+    <string name="add_item">Add</string>
+    <string name="copy">Copy</string>
+    <string name="remove_button">Clear</string>
+    <string name="delete_title">CLear list?</string>
+    <string name="delete_message">Are you sure you want to clear the entire list?</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="exists_message">That item already exists</string>
+    <string name="left_out">Some duplicates were left out</string>
+</resources>

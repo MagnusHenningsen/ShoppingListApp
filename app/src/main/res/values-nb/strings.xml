@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Handleliste</string>
+    <string name="input_placeholder">Eksempel vare</string>
+    <string name="add_item">Legg til</string>
+    <string name="copy">Kopier</string>
+    <string name="remove_button">Rydd</string>
+    <string name="delete_title">Rydd liste?</string>
+    <string name="delete_message">Er du sikker på at du vil rydde hele listen?</string>
+    <string name="positive">Ja</string>
+    <string name="negative">Nei</string>
+    <string name="exists_message">Den varen er allerede i listen</string>
+    <string name="left_out">Noen duplikater var utelatt fra kopieringen</string>
+</resources>
